@@ -27,10 +27,12 @@ Then download the I3D video features from [here for trainval](https://vatex-feat
 ```
 # set up your DIR/vatex_features for storing large video features
 mkdir DIR/vatex_features
+
 wget https://vatex-feats.s3.amazonaws.com/trainval.zip -P DIR/vatex_features
 unzip DIR/vatex_features/trainval.zip
 wget https://vatex-feats.s3.amazonaws.com/public_test.zip -P DIR/vatex_features
 unzip DIR/vatex_features/public_test.zip
+
 cd vmt/
 ln -s DIR/vatex_features data/vatex_features
 ```
@@ -58,6 +60,11 @@ The baseline VMT model achieves the following performance on corpus-level bleu s
 | Model    | EN -> ZH | ZH -> EN |
 | ---------|----------| -------- |
 | BLEU-4   |   31.1   |   24.6   |
+
+On the evaluation server, we report cumulative corpus-level BLEU score (up to 4-gram) and each individual n-gram score for reference, shown as B-1, ..., B-4. 
+
+Model performance is evaluated by cumulative BLEU-4 score in the challenge.
+
 
 ## Reference 
 
