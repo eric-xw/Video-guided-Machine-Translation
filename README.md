@@ -50,7 +50,7 @@ Run
 ```
 python eval.py
 ```
-Specify the model name in `configs.yaml`. The script will generate a json file for submission.
+Specify the model name in `configs.yaml`. The script will generate a json file for submission to the [VMT Challenge on CodaLab](https://competitions.codalab.org/competitions/24384).  
 
 ## Results
 
