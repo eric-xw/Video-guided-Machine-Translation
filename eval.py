@@ -50,7 +50,7 @@ def main(args):
     print ('Vocab size src/tgt:{}/{}'.format( len(vocab_src), len(vocab_tgt)) )
 
     # Setup the training, validation, and testing dataloaders
-    train_loader, val_loader, test_loader = create_split_loaders((tok_src, tok_tgt), args.batch_size, args.MAX_VID_LENGTH, (src, tgt), num_workers=4, pin_memory=True)
+    train_loader, val_loader, test_loader = create_split_loaders(args.DATA_DIR,(tok_src, tok_tgt), args.batch_size, args.MAX_VID_LENGTH, (src, tgt), num_workers=4, pin_memory=True)
     print ('train/val/test size: {}/{}/{}'.format( len(train_loader), len(val_loader), len(test_loader) ))
 
     ## init model
