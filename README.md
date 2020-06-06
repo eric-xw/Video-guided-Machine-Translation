@@ -1,6 +1,6 @@
 # Video-guided Machine Translation
 
-This repo contains the starter code for the [VATEX Translation Challenge for Video-guided Machine Translation (VMT)](https://vatex.org/main/translation_2020.html), aiming at translating a source language description into the target language with video information as additional spatiotemporal context. 
+This repo contains the starter code for the [VATEX Translation Challenge for Video-guided Machine Translation (VMT)](https://eric-xw.github.io/vatex-website/translation_2020.html), aiming at translating a source language description into the target language with video information as additional spatiotemporal context. 
 
 VMT is introduced in our ICCV oral paper "VATEX: A Large-Scale, High-Quality Multilingual Dataset for Video-and-Language Research". 
 VATEX is a new large-scale multilingual video description dataset, which contains over 41,250 videos and 825,000 captions in both English and Chinese and half of these captions are English-Chinese translation pairs. 
